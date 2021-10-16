@@ -1,9 +1,19 @@
 import Image from "next/image"
+import {
+	SearchIcon,
+	PlusCircleIcon,
+	UserGroupIcon,
+	HeartIcon,
+	PaperAirplaneIcon,
+	MenuIcon,
+} from "@heroicons/react/outline"
 
 function Header() {
 	return (
 		<div>
 			<div className="flex justify-between max-w-6xl">
+
+				{/* Logo */}
 				<div className="relative hidden lg:inline-grid h-24 w-24 cursor-pointer">
 					<Image
 						src="https://links.papareact.com/ocw"
@@ -17,6 +27,14 @@ function Header() {
 						layout="fill"
 						objectFit="contain"
 					/>
+				</div>
+
+				{/* Middle Header - Search Box */}
+				<div>
+					<div className="absolute inset-y-0 pl-3">
+						<SearchIcon className="h-5 w-5" />
+					</div>
+					<input type="text" placeholder="Search" />
 				</div>
 			</div>
 		</div>
