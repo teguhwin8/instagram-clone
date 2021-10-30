@@ -9,7 +9,7 @@ const posts = [
 		caption: "SUBSCRIBE AND DESTROY THE LIKE BUTTON FOR THE YT ALGORITM",
 	},
 	{
-		id: "123",
+		id: "124",
 		username: "teguhwin8",
 		userImg: "https://links.papareact.com/3ke",
 		img: "https://links.papareact.com/3ke",
